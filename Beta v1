@@ -1,5 +1,35 @@
-<script>
-<!--
-document.write(unescape("local%20Settings%20%3D%20%7B%0A%20%20JoinTeam%20%3D%20%22Pirates%22%3B%20--%20Pirates/Marines%0A%20%20Translator%20%3D%20true%3B%20--%20true/false%0A%7D%0A%0Aloadstring%28game%3AHttpGet%28%22https%3A//raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua%22%29%29%28Settings%29%0A%0A%20%20%20%20%20%20%20local%20Window%20%3D%20MakeWindow%28%7B%0A%20%20%20%20%20%20%20%20%20Hub%20%3D%20%7B%0A%20%20%20%20%20%20%20%20%20Title%20%3D%20%22Hay%20n%u1EAFm%22%2C%0A%20%20%20%20%20%20%20%20%20Animation%20%3D%20%22tao%20l%E0m%20h%u1EBFt%20y%EAn%20t%E2m%22%0A%20%20%20%20%20%20%20%20%20%7D%2C%0A%20%20%20%20%20%20%20%20Key%20%3D%20%7B%0A%20%20%20%20%20%20%20%20KeySystem%20%3D%20false%2C%0A%20%20%20%20%20%20%20%20Title%20%3D%20%22Key%20System%22%2C%0A%20%20%20%20%20%20%20%20Description%20%3D%20%22%22%2C%0A%20%20%20%20%20%20%20%20KeyLink%20%3D%20%22%22%2C%0A%20%20%20%20%20%20%20%20Keys%20%3D%20%7B%221234%22%7D%2C%0A%20%20%20%20%20%20%20%20Notifi%20%3D%20%7B%0A%20%20%20%20%20%20%20%20Notifications%20%3D%20true%2C%0A%20%20%20%20%20%20%20%20CorrectKey%20%3D%20%22Running%20the%20Script...%22%2C%0A%20%20%20%20%20%20%20Incorrectkey%20%3D%20%22The%20key%20is%20incorrect%22%2C%0A%20%20%20%20%20%20%20CopyKeyLink%20%3D%20%22Copied%20to%20Clipboard%22%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%29%0A%0A%20%20%20%20%20%20%20MinimizeButton%28%7B%0A%20%20%20%20%20%20%20Image%20%3D%20%22http%3A//www.roblox.com/asset/%3Fid%3D%2084821773700169%22%2C%0A%20%20%20%20%20%20%20Size%20%3D%20%7B60%2C%2060%7D%2C%0A%20%20%20%20%20%20%20Color%20%3D%20Color3.fromRGB%2810%2C%2010%2C%2010%29%2C%0A%20%20%20%20%20%20%20Corner%20%3D%20true%2C%0A%20%20%20%20%20%20%20Stroke%20%3D%20false%2C%0A%20%20%20%20%20%20%20StrokeColor%20%3D%20Color3.fromRGB%28255%2C%200%2C%200%29%0A%20%20%20%20%20%20%7D%29%0A%20%20%20%20%20%20%0A------%20Tab%0A%20%20%20%20%20local%20Tab1o%20%3D%20MakeTab%28%7BName%20%3D%20%22MAIN%22%7D%29%0A%20%20%20%20%20local%20Tab2o%20%3D%20MakeTab%28%7BName%20%3D%20%22a%22%7D%29%0A%20%20%20%20%20local%20Tab3o%20%3D%20MakeTab%28%7BName%20%3D%20%22a%22%7D%29%0A%20%20%20%20%20%0A%20%20%20%20%20%0A-------TOGGLE%20%0A%0A%20%20%20%20%20Toggle%20%3D%20AddToggle%28Tab1o%2C%20%7B%0A%20%20%20%20%20%20Name%20%3D%20%22a%22%2C%0A%20%20%20%20%20%20Default%20%3D%20false%2C%0A%20%20%20%20%20%20Callback%20%3D%20function%28%29%0A%20%20%20%20%20end%0A%20%20%20%20%7D%29%0A%20%20%20%20%0A-------%20BUTTON%0A%20%20%20%20%0A%20%20%20%20AddButton%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22G%u1EA1t%20c%u1EA7n%22%2C%0A%20%20%20%20Callback%20%3D%20function%28%29%0A%09%20%20loadstring%28game%3AHttpGet%28%27https%3A//raw.githubusercontent.com/mizuharasup/cutaypremium/refs/heads/main/premium.lua%27%29%29%28%29%0A%20%20end%0A%20%20%7D%29%0A%20%20%20%20%20AddButton%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22Aim%22%2C%0A%20%20%20%20Callback%20%3D%20function%28%29%0A%09%20%20loadstring%28game%3AHttpGet%28%22https%3A//raw.githubusercontent.com/Totocoems/Ace/main/Ace%22%29%29%28%29%20%0A%20%20end%0A%20%20%7D%29%20%20%20AddButton%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22Quantum%22%2C%0A%20%20%20%20Callback%20%3D%20function%28%29%0A%09%20%20loadstring%28game%3AHttpGet%28%22https%3A//raw.githubusercontent.com/Trustmenotcondom/QTONYX/refs/heads/main/QuantumOnyx.lua%22%29%29%28%29%0A%20%20end%0A%20%20%7D%29%20%20%20AddButton%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22auto%20chest%22%2C%0A%20%20%20%20Callback%20%3D%20function%28%29%0A%09%20%20getgenv%28%29.SelectedTeam%20%3D%20%22Pirate%22%20--%20Marine%0Aloadstring%28game%3AHttpGet%28%22https%3A//raw.githubusercontent.com/ducsharelink/donkiroblox/refs/heads/main/donkiroblox.lua%22%29%29%28%29%0A%20%20end%0A%20%20%7D%29%20%20%20AddButton%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22rubu%20tv%22%2C%0A%20%20%20%20Callback%20%3D%20function%28%29%0A%09%20%20loadstring%28game%3AHttpGet%28%22https%3A//raw.githubusercontent.com/Bubu2k/Rubutv/refs/heads/main/rubuhubv2%22%29%29%28%29%0A%20%20end%0A%20%20%7D%29%20%20%20AddButton%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22nh%u1EB7t%20tr%E1i%22%2C%0A%20%20%20%20Callback%20%3D%20function%28%29%0A%09%20%20loadstring%28game%3AHttpGet%28%22https%3A//raw.githubusercontent.com/marisdeptrai/Script-Free/main/FruitFinder.lua%22%29%29%28%29%0A%20%20end%0A%20%20%7D%29%0A-----%20Dropdown%20%0A%0A%20%20Dropdown%20%3D%20AddDropdown%28Tab1o%2C%20%7B%0A%20%20%20%20%20Name%20%3D%20%22a%22%2C%0A%20%20%20%20%20Options%20%3D%20%7B%22Test%201%22%2C%20%22Test%202%22%2C%20%22Test%203%22%2C%20%22Test%204%22%7D%2C%0A%20%20%20%20%20Default%20%3D%20%22Melee%22%2C%0A%20%20%20%20%20Callback%20%3D%20function%28%29%0A%20%20%20%20%20end%0A%20%20%20%7D%29%0A%0A-----%20Section%20%0A%20%20%20%0A%20%20%20Section%20%3D%20AddSection%28Tab1o%2C%20%7B%22a%22%7D%29%20%20%20%20%20%20%20%20%20%20%0A%0A-----%20Paragraph%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%20%20%20Paragraph%20%3D%20AddParagraph%28Farm%2C%20%7B%22a%22%2C%20%22%22%7D%29"));
-//-->
-</script>
+getgenv().Dough = function()
+    local url = 'https://xeterapi.vercel.app/api/Dough'
+    local chooses
+    local foundServers = game:GetService('HttpService'):JSONDecode(game:HttpGet(url))
+    for i,v in foundServers do 
+        if v.jobId ~= game.JobId then 
+            chooses = v
+        end
+    end
+    game:GetService("TeleportService"):TeleportToPlaceInstance(7449423635, chooses.jobId, game.Players.LocalPlayer)
+end
+function CheckBossAttack()
+    for _,Boss in pairs(game.Workspace.Enemies:GetChildren()) do
+        if Boss.Name == "rip_indra True Form" or Boss.Name == "Dough King" and DetectingPart(Boss) and Boss.Humanoid.Health > 0 then
+            return Boss
+        end
+    end
+    for _,Boss in pairs(game.ReplicatedStorage:GetChildren()) do
+        if Boss.Name == "rip_indra True Form" or Boss.Name == "Dough King" then
+            return Boss
+        end
+    end
+end
+function DetectingPart(v1)
+    return v1 and v1:FindFirstChild("HumanoidRootPart") and v1:FindFirstChild("Humanoid")
+end
+spawn(function()
+  while task.wait(3) do
+    pcall(function()
+      if not CheckBossAttack() then
+        return Dough()
+      end
+    end)
+  end
+end)     
